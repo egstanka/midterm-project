@@ -1,0 +1,137 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Slabo 27px', serif;
+}
+
+
+.navbar{
+    background-color: #D44500;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer{
+    background-color: #D44500;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 1px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .about h1{
+        font-size: 30px;
+    }
+}
+
+
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    margin: 20px;
+}
+
+button{
+    background-color:  #D44500;
+    color: white;
+}
+
+.about button{
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    transition: background-color 1s linear ;
+}
+
+@keyframes buttonJump {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0px);}
+}
+
+.about button:hover {animation:buttonJump 1s linear 0s infinite;}
+
+.about button:hover{
+    background-color: darkblue;
+}
+
+.about-info{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #555555;
+}
+
+
+
+
+.list-group-item h4{
+    padding: 0px;
+    margin:0px;
+}
+
+.list-group-item{
+    background-color: #ffffff; 
+    transition: background-color 1s linear ;   
+}
+
+.list-group-item:hover{
+    background-color: #dddddd;
+}
+
+
+
+
+.list-group{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:480px) {
+    .form-actions{
+        text-align: center;
+    }
+}
+
+.contact-thing{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-actions button{
+    font-family: 'Oswald', sans-serif;
+    transition: background-color 1s ease-in-out;
+}
+
+.form-actions button:hover{
+    background-color: darkblue;
+}
+
+
+.alert{
+    transition: border-color .5s ease-in-out;
+}
+
+.alert:hover{
+    border-color: red;
+
+}
